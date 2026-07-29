@@ -1,0 +1,17 @@
+comparison	te_class	observed	expected	obs_prop	ref_prop	chi_contribution
+forebrain shadow observed enhancer-TE pairs vs shadow neighborhood TE opportunities	LTR	217.0	132.06241318640616	0.4348697394789579	0.2646541346420965	54.62866745842112
+forebrain shadow observed enhancer-TE pairs vs shadow neighborhood TE opportunities	LINE	191.0	86.35116677470137	0.38276553106212424	0.17304843041022316	126.82374430434255
+forebrain shadow observed enhancer-TE pairs vs shadow neighborhood TE opportunities	SINE	55.0	250.71295953329016	0.11022044088176353	0.5024307806278359	152.77855042109718
+forebrain shadow observed enhancer-TE pairs vs shadow neighborhood TE opportunities	TIR	36.0	29.873460505602377	0.07214428857715431	0.05986665431984443	1.256449220851892
+forebrain shadow observed enhancer-TE pairs vs genome TE inserts	LTR	217.0	132.71750979480964	0.4348697394789579	0.2659669534966125	53.52374502935268
+forebrain shadow observed enhancer-TE pairs vs genome TE inserts	LINE	191.0	134.88535790361433	0.38276553106212424	0.27031133848419703	23.344661767184167
+forebrain shadow observed enhancer-TE pairs vs genome TE inserts	SINE	55.0	209.025572369034	0.11022044088176353	0.41888892258323435	113.49748585653481
+forebrain shadow observed enhancer-TE pairs vs genome TE inserts	TIR	36.0	22.3715599325421	0.07214428857715431	0.04483278543595611	8.302254256401632
+forebrain single observed enhancer-TE pairs vs single neighborhood TE opportunities	LTR	129.0	56.50463461953007	0.5536480686695279	0.2425091614572106	93.01145007017385
+forebrain single observed enhancer-TE pairs vs single neighborhood TE opportunities	LINE	56.0	31.843500754472945	0.24034334763948498	0.13666738521233024	18.325135175886146
+forebrain single observed enhancer-TE pairs vs single neighborhood TE opportunities	SINE	36.0	135.0887691312783	0.15450643776824036	0.5797801250269454	72.68246080775332
+forebrain single observed enhancer-TE pairs vs single neighborhood TE opportunities	TIR	12.0	9.56309549471869	0.05150214592274678	0.04104332830351369	0.6209813099890034
+forebrain single observed enhancer-TE pairs vs genome TE inserts	LTR	129.0	61.97030016471072	0.5536480686695279	0.2659669534966125	72.50216068127952
+forebrain single observed enhancer-TE pairs vs genome TE inserts	LINE	56.0	62.98254186681792	0.24034334763948498	0.27031133848419703	0.7741175487163355
+forebrain single observed enhancer-TE pairs vs genome TE inserts	SINE	36.0	97.60111896189363	0.15450643776824036	0.41888892258323435	38.879655251072826
+forebrain single observed enhancer-TE pairs vs genome TE inserts	TIR	12.0	10.446039006577776	0.05150214592274678	0.04483278543595611	0.23116846180233605

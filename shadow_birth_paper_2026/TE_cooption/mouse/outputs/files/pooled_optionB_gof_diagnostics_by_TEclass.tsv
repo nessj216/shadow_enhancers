@@ -1,0 +1,21 @@
+comparison	te_class	observed	expected	obs_prop	ref_prop	chi_contribution
+Pooled shadow observed enhancer-TE pairs vs shadow neighborhood TE opportunities	LTR	1090.0	542.1749176043841	0.4868244752121483	0.24215047682196697	553.5341292212827
+Pooled shadow observed enhancer-TE pairs vs shadow neighborhood TE opportunities	LINE	704.0	373.4213780057335	0.31442608307280034	0.1667804278721454	292.6512292982599
+Pooled shadow observed enhancer-TE pairs vs shadow neighborhood TE opportunities	SINE	283.0	1201.1750102385085	0.12639571237159447	0.536478343116797	701.850556530549
+Pooled shadow observed enhancer-TE pairs vs shadow neighborhood TE opportunities	TIR	162.0	122.22869415137392	0.07235372934345691	0.054590752189090624	12.940961039361474
+Pooled shadow observed enhancer-TE pairs vs genome TE inserts	LTR	1090.0	595.5000088789153	0.4868244752121483	0.2659669534966125	410.63012186868644
+Pooled shadow observed enhancer-TE pairs vs genome TE inserts	LINE	704.0	605.2270868661171	0.31442608307280034	0.27031133848419703	16.119715360842278
+Pooled shadow observed enhancer-TE pairs vs genome TE inserts	SINE	283.0	937.8922976638617	0.12639571237159447	0.41888892258323435	457.28483175278507
+Pooled shadow observed enhancer-TE pairs vs genome TE inserts	TIR	162.0	100.38060659110573	0.07235372934345691	0.04483278543595611	37.82552998057408
+Pooled single observed enhancer-TE pairs vs single neighborhood TE opportunities	LTR	475.0	208.40330673292874	0.5497685185185185	0.24120753094088976	341.0396791449129
+Pooled single observed enhancer-TE pairs vs single neighborhood TE opportunities	LINE	236.0	128.1632340994887	0.27314814814814814	0.14833707650403785	90.7340405506205
+Pooled single observed enhancer-TE pairs vs single neighborhood TE opportunities	SINE	98.0	489.5944951498065	0.11342592592592593	0.566660295312276	313.21072877813066
+Pooled single observed enhancer-TE pairs vs single neighborhood TE opportunities	TIR	55.0	37.83896401777608	0.06365740740740741	0.043795097242796385	7.783013188332342
+Pooled single observed enhancer-TE pairs vs genome TE inserts	LTR	475.0	229.7954478210732	0.5497685185185185	0.2659669534966125	261.64692546948834
+Pooled single observed enhancer-TE pairs vs genome TE inserts	LINE	236.0	233.54899645034624	0.27314814814814814	0.27031133848419703	0.025722304491651082
+Pooled single observed enhancer-TE pairs vs genome TE inserts	SINE	98.0	361.92002911191446	0.11342592592592593	0.41888892258323435	192.45627808262344
+Pooled single observed enhancer-TE pairs vs genome TE inserts	TIR	55.0	38.73552661666608	0.06365740740740741	0.04483278543595611	6.829211257537452
+Pooled shadow observed enhancer-TE pairs vs single observed enhancer-TE pairs	LTR	1090.0	1230.9317129629628	0.4868244752121483	0.5497685185185185	16.135539859368752
+Pooled shadow observed enhancer-TE pairs vs single observed enhancer-TE pairs	LINE	704.0	611.5787037037037	0.31442608307280034	0.27314814814814814	13.966634150861562
+Pooled shadow observed enhancer-TE pairs vs single observed enhancer-TE pairs	SINE	283.0	253.96064814814815	0.12639571237159447	0.11342592592592593	3.3205300196104437
+Pooled shadow observed enhancer-TE pairs vs single observed enhancer-TE pairs	TIR	162.0	142.5289351851852	0.07235372934345691	0.06365740740740741	2.659967707821101

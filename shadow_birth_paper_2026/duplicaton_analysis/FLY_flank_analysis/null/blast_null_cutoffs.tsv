@@ -1,0 +1,7 @@
+metric	percentile	cutoff_value	stronger_values	n_positive_double_hits	notes
+bitscore	90	36.5	higher	1418	
+evalue	90	9.98E--10	lower	1418	"For evalue, this is the lower-tail cutoff matching the same strength percentile as the score-based rows."
+bitscore	95	41	higher	1418	
+evalue	95	2.88e-12	lower	1418	"For evalue, this is the lower-tail cutoff matching the same strength percentile as the score-based rows."
+bitscore	99	52.54699999999993	higher	1418	
+evalue	99	1.6e-16	lower	1418	"For evalue, this is the lower-tail cutoff matching the same strength percentile as the score-based rows."

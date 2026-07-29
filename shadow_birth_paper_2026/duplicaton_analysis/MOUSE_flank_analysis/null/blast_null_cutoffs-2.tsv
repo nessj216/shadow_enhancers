@@ -1,0 +1,7 @@
+metric	percentile	cutoff_value	stronger_values	n_positive_double_hits	n_double_hit_distribution_values	notes
+bitscore	90	93.3	higher	2784	9220	
+evalue	90	5.21e-22	lower	2784	9220	Built from all flank evalues participating in the passing double-hit comparisons for positive pairs.
+bitscore	95	143	higher	2784	9220	
+evalue	95	3.28e-37	lower	2784	9220	Built from all flank evalues participating in the passing double-hit comparisons for positive pairs.
+bitscore	99	219	higher	2784	9220	
+evalue	99	5.2e-60	lower	2784	9220	Built from all flank evalues participating in the passing double-hit comparisons for positive pairs.

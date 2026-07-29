@@ -1,0 +1,24 @@
+##maf version=1 scoring=lastz.v1.04.52
+# lastz.v1.04.52 --strand=both --seed=12of19 --transition=2 --step=1 --ambiguous=iupac --hspthresh=1500 --gappedthresh=1500 --ydrop=5400 --chain --format=maf+ 
+#
+# hsp_threshold      = 1500
+# gapped_threshold   = 1500
+# x_drop             = 910
+# y_drop             = 5400
+# gap_open_penalty   = 400
+# gap_extend_penalty = 30
+#        A    C    G    T
+#   A   91 -114  -31 -123
+#   C -114  100 -125  -31
+#   G  -31 -125  100 -114
+#   T -123  -31 -114   91
+# seed=1110100110010101111 w/2 transitions
+# step=1
+# identity=18/23 (78.3%)
+# coverage=23/390 (5.9%)
+# continuity=23/23 (100.0%)
+# cigar=23m
+a score=1582
+s chr3R 367 23 + 390 CAGCGTTGCATCGTTCTCGCTCG
+s chr3R 521 23 - 813 CGACGTTGTACCGTTCTCGTTCG
+

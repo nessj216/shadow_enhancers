@@ -1,0 +1,72 @@
+########################################
+# Program: needle
+# Rundate: Fri  6 Feb 2026 17:14:03
+# Commandline: needle
+#    -asequence /Users/jillianness/Desktop/SEbirthanalysis1024/new_LASTZ_analysis/enhancer_extraction/enhancer_pairs/FBgn0002561_Spearman/chrX_374797-375243__chrX_421493-421767/enhancers/chrX_374797-375243.fa
+#    -bsequence /Users/jillianness/Desktop/SEbirthanalysis1024/new_LASTZ_analysis/enhancer_extraction/enhancer_pairs/FBgn0002561_Spearman/chrX_374797-375243__chrX_421493-421767/enhancers/chrX_421493-421767.fa
+#    -outfile /Users/jillianness/Desktop/SEbirthanalysis1024/new_LASTZ_analysis/enhancer_extraction/enhancer_pairs/FBgn0002561_Spearman/chrX_374797-375243__chrX_421493-421767/enhancers/test.needle
+# Align_format: srspair
+# Report_file: /Users/jillianness/Desktop/SEbirthanalysis1024/new_LASTZ_analysis/enhancer_extraction/enhancer_pairs/FBgn0002561_Spearman/chrX_374797-375243__chrX_421493-421767/enhancers/test.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: 374797-375243
+# 2: 421493-421767
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 499
+# Identity:     181/499 (36.3%)
+# Similarity:   181/499 (36.3%)
+# Gaps:         278/499 (55.7%)
+# Score: 317.5
+# 
+#
+#=======================================
+
+374797-375243      1 CAGTGCAGAATAGAAACCATCGCCCTTATTCGGAATTCCAAGTTTTTAAA     50
+                                                                       
+421493-421767      0 --------------------------------------------------      0
+
+374797-375243     51 GCCATTTGGCGAGAAATTATTAAATTCGCAGCG--CTGCCACAGGA-TAT     97
+                             ||||                |||||  |.|..|||||| |  
+421493-421767      1 --------GCGA----------------CAGCGATCGGAAACAGGACT--     24
+
+374797-375243     98 TTGCATAAGAAATTAAGGCAATGAAATGTTATGACTGCGTTCATGACAGG    147
+                        || |||..|  ||||||..||.||                    |.|
+421493-421767     25 ---CA-AAGTCA--AAGGCACAGATAT--------------------ATG     48
+
+374797-375243    148 CGACTTGCATTACTCCGCTGAAAACTCTTTTTCACAGCACAAATATTGCG    197
+                     |||.||||||      ||                         .||||.|
+421493-421767     49 CGATTTGCAT------GC-------------------------GATTGAG     67
+
+374797-375243    198 GCTACTTTGAAGCTCTTCCGCTGAAAAGGA---GATGCCGC-CCCATTGC    243
+                     ||.||.||            .||.|||.||   |||||||| |.||||||
+421493-421767     68 GCAACATT------------ATGCAAAAGATCGGATGCCGCGCTCATTGC    105
+
+374797-375243    244 T---------AAAGCCAGTTGTTGGGATGTTGCCACCAGCAGCGGTGAAC    284
+                     |         ||..|||.|| .||.|||..||||                
+421493-421767    106 TTTGCATACAAACCCCAATT-CTGCGATTCTGCC----------------    138
+
+374797-375243    285 CGTAGTTAAACTGTA---TTCCTAGTCTCCATTGT---GTC--ACTGATA    326
+                               |||||   ||.|.|.|| |||||.|   |||  ||.|| |
+421493-421767    139 ----------CTGTACTTTTGCGATTC-CCATTATCAAGTCCAACCGA-A    176
+
+374797-375243    327 TGCATATAATTTTCGGGAGGAC--AATTGTGCAAGACGCAGGA-CGCAGC    373
+                     |||    |||||     .|.||  |||    |||     |||| |.|||.
+421493-421767    177 TGC----AATTT-----CGAACTGAAT----CAA-----AGGAGCCCAGA    208
+
+374797-375243    374 A----------TGC--GGC------GTATGTCCAGA-----ACACAATTT    400
+                     |          |||  |||      ||.|.|.|| |     |||||||| 
+421493-421767    209 ATTAATATCAGTGCCTGGCAATCTTGTGTCTGCA-ACCCCGACACAATT-    256
+
+374797-375243    401 GCACGAAAAACAAAGCAAACACATCCTTT---TTTGCACGTGGCCCAAG    446
+                      ||                   |||.|||   ||.|.|           
+421493-421767    257 -CA-------------------ATCATTTCGCTTCGGA-----------    274
+
+
+#---------------------------------------
+#---------------------------------------

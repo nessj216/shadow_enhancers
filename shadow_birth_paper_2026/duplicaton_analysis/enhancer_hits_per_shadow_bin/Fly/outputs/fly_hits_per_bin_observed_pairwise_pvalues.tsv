@@ -1,0 +1,4 @@
+comparison	bonferroni_p
+2 shadows/set vs 3 shadows/set	0.008791444504264495
+2 shadows/set vs ≥4 shadows/set	3.156918330516447e-09
+3 shadows/set vs ≥4 shadows/set	0.03579825937404621

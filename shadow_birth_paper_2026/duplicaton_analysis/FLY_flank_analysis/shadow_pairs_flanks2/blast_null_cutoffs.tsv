@@ -1,0 +1,16 @@
+metric	percentile	cutoff_value	stronger_values	n_positive_double_hits	notes
+neg_log10_evalue	50.0	1.744727494896694	higher	1120	Equivalent evalue ~= 0.018
+bitscore	50.0	28.3	higher	1120	
+evalue	50.0	0.018	lower	1120	For evalue, this is the lower-tail cutoff matching the same strength percentile as the score-based rows.
+neg_log10_evalue	75.0	3.0	higher	1120	Equivalent evalue ~= 0.001
+bitscore	75.0	31.9	higher	1120	
+evalue	75.0	0.001	lower	1120	For evalue, this is the lower-tail cutoff matching the same strength percentile as the score-based rows.
+neg_log10_evalue	90.0	4.995678626217358	higher	1120	Equivalent evalue ~= 1.01e-05
+bitscore	90.0	39.2	higher	1120	
+evalue	90.0	1.01e-05	lower	1120	For evalue, this is the lower-tail cutoff matching the same strength percentile as the score-based rows.
+neg_log10_evalue	95.0	7.173591799346844	higher	1120	Equivalent evalue ~= 6.70515e-08
+bitscore	95.0	46.4	higher	1120	
+evalue	95.0	6.71250000000007e-08	lower	1120	For evalue, this is the lower-tail cutoff matching the same strength percentile as the score-based rows.
+neg_log10_evalue	99.0	300.0	higher	1120	Equivalent evalue ~= 1e-300
+bitscore	99.0	1336.7799999999706	higher	1120	
+evalue	99.0	0.0	lower	1120	For evalue, this is the lower-tail cutoff matching the same strength percentile as the score-based rows.

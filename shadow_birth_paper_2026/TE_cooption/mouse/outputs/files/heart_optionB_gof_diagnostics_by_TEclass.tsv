@@ -1,0 +1,17 @@
+comparison	te_class	observed	expected	obs_prop	ref_prop	chi_contribution
+heart shadow observed enhancer-TE pairs vs shadow neighborhood TE opportunities	LTR	665.0	296.0407956983902	0.5211598746081505	0.2320068931805566	459.8382939680003
+heart shadow observed enhancer-TE pairs vs shadow neighborhood TE opportunities	LINE	383.0	205.2294385206174	0.3001567398119122	0.16083811796286632	153.98557222832417
+heart shadow observed enhancer-TE pairs vs shadow neighborhood TE opportunities	SINE	148.0	710.0517817049023	0.11598746081504702	0.5564669135618356	444.90023609143503
+heart shadow observed enhancer-TE pairs vs shadow neighborhood TE opportunities	TIR	80.0	64.67798407609011	0.06269592476489028	0.050688075294741466	3.6297385474531945
+heart shadow observed enhancer-TE pairs vs genome TE inserts	LTR	665.0	339.37383266167757	0.5211598746081505	0.2659669534966125	312.4354050041008
+heart shadow observed enhancer-TE pairs vs genome TE inserts	LINE	383.0	344.91726790583544	0.3001567398119122	0.27031133848419703	4.2047604417180136
+heart shadow observed enhancer-TE pairs vs genome TE inserts	SINE	148.0	534.5022652162071	0.11598746081504702	0.41888892258323435	279.4824470142015
+heart shadow observed enhancer-TE pairs vs genome TE inserts	TIR	80.0	57.206634216280015	0.06269592476489028	0.04483278543595611	9.08177051259914
+heart single observed enhancer-TE pairs vs single neighborhood TE opportunities	LTR	232.0	102.06676381959196	0.5458823529411765	0.24015709134021637	165.4078686589359
+heart single observed enhancer-TE pairs vs single neighborhood TE opportunities	LINE	126.0	65.15770883762288	0.2964705882352941	0.15331225608852442	56.81268509782248
+heart single observed enhancer-TE pairs vs single neighborhood TE opportunities	SINE	39.0	238.80662451217705	0.09176470588235294	0.5618979400286519	167.17579455972924
+heart single observed enhancer-TE pairs vs single neighborhood TE opportunities	TIR	28.0	18.968902830608112	0.06588235294117648	0.04463271254260732	4.2997065677089275
+heart single observed enhancer-TE pairs vs genome TE inserts	LTR	232.0	113.0359552360603	0.5458823529411765	0.2659669534966125	125.20302869154494
+heart single observed enhancer-TE pairs vs genome TE inserts	LINE	126.0	114.88231885578374	0.2964705882352941	0.27031133848419703	1.0759082446762351
+heart single observed enhancer-TE pairs vs genome TE inserts	SINE	39.0	178.0277920978746	0.09176470588235294	0.41888892258323435	108.57140195831593
+heart single observed enhancer-TE pairs vs genome TE inserts	TIR	28.0	19.053933810281347	0.06588235294117648	0.04483278543595611	4.200292761993461

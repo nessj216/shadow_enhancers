@@ -1,0 +1,2 @@
+bucket,observed_enhancer_prop,null_mean_enhancer_prop,null_sd_enhancer_prop,null_mean_double_flank_prop,null_sd_double_flank_prop,null_mean_duplication_prop,null_sd_duplication_prop,z_score,n_reps
+>=4,,0.2128801528368316,0.00221601115890334,0.022662560251617007,0.001202508312414321,0.005725780592615842,0.0006722998971199902,,100
