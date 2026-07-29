@@ -1,0 +1,29 @@
+##run minimap2 with flanks only using splice feature
+
+
+# Input directory
+INPUT_DIR="/Users/jillianness/Desktop/SEbirthanalysis1024/TEs_otherspecies/minimap/dmel_lines_assemblies/all_assembly_files"
+
+
+
+FLANKS="/Users/jillianness/Desktop/SEbirthanalysis1024/TEs_otherspecies/minimap/splice_tool/spliced_updown.fa"     # your TE+flanks fasta
+THREADS=8                        # threads per minimap2 run
+
+
+
+# Output directory
+OUTPUT_DIR="/Users/jillianness/Desktop/SEbirthanalysis1024/TEs_otherspecies/minimap/minimap_splice_output"
+
+
+# Loop through all .fna files
+for file in "$INPUT_DIR"/*; do
+    # Extract filename without extension
+    base=$(basename "$file" .fna)
+
+    # Define output file
+    OUTFILE="$OUTPUT_DIR/${base}_output_splice.paf"
+
+    # Run minimap2 splice aware
+    minimap2 -x splice --splice-flank=no -G30000 --secondary=no --cs=long -t "$THREADS" "$file" "$FLANKS" > "$OUTFILE"
+
+done
