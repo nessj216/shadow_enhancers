@@ -1,6 +1,6 @@
 # Shadow Birth Paper 2026
 
-Comparative genomics project testing whether shadow enhancers (redundant enhancer pairs/sets driving the same expression pattern) arose through duplications, transposable elements (TEs) co-option, or TE splitting in *Drosophila* (fly) and mouse.
+Comparative genomics project testing whether shadow enhancers (redundant enhancer pairs/sets driving the same expression pattern) arose through duplication of transposable elements (TEs), in *Drosophila* (fly) and mouse.
 
 Pipeline: isolate shadow-enhancer sets and their flanking sequences → align/BLAST flanks and enhancer bodies against each other and against null/random controls to detect TE-mediated duplication signatures → quantify TE-class enrichment and "TE splitting" across enhancer boundaries genome-wide → compare TFBS similarity between shadow pairs → generate paper figures.
 
@@ -12,8 +12,8 @@ Fly and mouse subfolders (`fly/`, `mouse/`), each with `input/` (shadow vs. sing
 ### `TE_splitting/`
 Smaller companion analysis: whether TEs are split across enhancer boundaries. Same `fly/` and `mouse/` layout, each with `scripts/` and `output/` (hit tables + donut-plot scripts).
 
-### `duplicaton_analysis/'
-The core duplication-signature analysis 
+### `duplication_analysis/`
+The core duplication-signature analysis
 
 - **`FLY_flank_analysis/`** — `make_shadow_flanks_v2.py` builds flank FASTAs per shadow pair. `shadow_pairs_flanks2/<gene>/` holds one subfolder per gene/shadow-pair (e.g. `FBgn0023095_sm`, `Abd-B`) with BLAST results (`LL/RR/LR/RL` hit files). `null/` holds the null-model BLAST comparison and cutoff scripts/tables. `finaloutput_enhancerhitANDdoubleflank/` holds the final collated output.
 - **`MOUSE_flank_analysis/`** — mouse equivalent: `shadow_duplication_null_pipeline.py`, `null/` and `final/` result tables.
