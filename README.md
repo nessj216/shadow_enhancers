@@ -1,6 +1,6 @@
 # Shadow Birth Paper 2026
 
-Comparative genomics project testing whether shadow enhancers (redundant enhancer pairs/sets driving the same expression pattern) arose through duplication of transposable elements (TEs), in *Drosophila* (fly) and mouse.
+Comparative genomics project testing whether shadow enhancers (redundant enhancer pairs/sets driving the same expression pattern) arose through duplication, transposable element co-option (TEs), or TE splitting in *Drosophila* (fly) and mouse.
 
 Pipeline: isolate shadow-enhancer sets and their flanking sequences → align/BLAST flanks and enhancer bodies against each other and against null/random controls to detect TE-mediated duplication signatures → quantify TE-class enrichment and "TE splitting" across enhancer boundaries genome-wide → compare TFBS similarity between shadow pairs → generate paper figures.
 
